@@ -7,12 +7,12 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
   const body = document.body;
 
   const display = () => {
-    if (turns < 10) {
+    if (turns < 12) {
       setText("Incredible! You've got a great memory");
-    } else if (turns >= 10 && turns < 15) {
+    } else if (turns >= 12 && turns < 16) {
       setText("Great job! Keep it up!");
-    } else if (turns >= 15 && turns < 20) {
-      setText("great");
+    } else if (turns >= 16 && turns < 20) {
+      setText("Good job!Keep trying!");
     } else {
       setText("I'd check with a doctor if I were you");
     }
