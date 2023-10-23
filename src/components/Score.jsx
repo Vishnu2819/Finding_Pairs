@@ -8,9 +8,11 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
 
   const display = () => {
     if (turns < 10) {
-      setText("Great Job!!");
-    } else if (turns >= 10 && turns < 14) {
-      setText("That's Fair");
+      setText("Incredible! You've got a great memory");
+    } else if (turns >= 10 && turns < 15) {
+      setText("Great job! Keep it up!");
+    } else if (turns >= 15 && turns < 20) {
+      setText("great");
     } else {
       setText("I'd check with a doctor if I were you");
     }

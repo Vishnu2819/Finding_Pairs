@@ -8,9 +8,11 @@ const cardImages = [
   { src: "./img2/MC-1.jpeg", matched: false },
   { src: "./img2/MC-2.jpeg", matched: false },
   { src: "./img2/MC-3.jpeg", matched: false },
+  { src: "./img2/MC-4.jpeg", matched: false },
   { src: "./img2/FC-1.jpeg", matched: false },
   { src: "./img2/FC-2.jpeg", matched: false },
-  { src: "./img2/FC-3.jpeg", matched: false }
+  { src: "./img2/FC-3.jpeg", matched: false },
+  { src: "./img2/FC-4.jpeg", matched: false }
 ];
 
 function App() {
