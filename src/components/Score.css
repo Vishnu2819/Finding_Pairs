@@ -1,0 +1,75 @@
+/* /* .displayhidden{
+    visibility: hidden;
+    }
+.displayunhide{
+    visibility: visible;
+}
+.display {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    border: 1px solid blue;
+    padding: 10px 5px;
+    border-radius: 5px;
+    align-items: center;
+    z-index: 999; 
+  }
+ */
+
+/* Score.css */
+/* 
+body {
+    filter: blur(5px); 
+    transition: filter 0.3s; 
+  } */
+
+/* .displayhidden {
+    visibility: hidden;
+    transform: scale(0.8); 
+    opacity: 0; 
+    transition: transform 1s, opacity 1s; 
+  }
+  
+  .displayunhide {
+    visibility: visible;
+    transform: scale(1); 
+    opacity: 1; 
+    transition: transform 1s, opacity 1s;
+  } */
+
+  .displayhidden {
+    visibility: visible; /* Set visibility to visible to make the element initially visible */
+    opacity: 0; /* Start with opacity at 0 */
+    transition: opacity 1s ease-in-out; /* Add transition for opacity with ease-in-out timing function */
+  }
+  
+  .displayunhide {
+    visibility: visible;
+    opacity: 1; /* Fade in with full opacity */
+    transition: opacity 1s ease-in-out; /* Add transition for opacity with ease-in-out timing function */
+  }
+  
+  
+  .display {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #ffffff;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    z-index: 999;
+    filter: blur(0);
+  }
+  
+  /* Add other styles as needed */
+  
+  /* Rest of your CSS */
+  
