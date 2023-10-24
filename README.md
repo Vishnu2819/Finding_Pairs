@@ -40,7 +40,7 @@ Increase the Number of Cards: Introducing additional cards to expand the grid's 
 Decrease the Time Limit: Implement a time limit for each turn. Players must find and match pairs within a set time frame, which adds pressure and requires quicker thinking.
 Limit the Number of Turns: Restrict each player to a specific number of turns. When players have a limited number of opportunities to flip cards, they need to make each turn count.
 
-**Technologies:**
+**Technologies:**<br>
 To enhance the visual presentation and interaction of web page elements, the code is primarily a React component written in JavaScript, Cascading Style Sheets (CSS), a style sheet language used for describing the look and formatting of a document written in HTML. Technologies and libraries used outline the dependencies and devDependencies used in the "memory-game" project, including React and various tools and libraries for development, linting, and optimization. CSS is used in conjunction with various web development technologies and libraries to streamline development and create more complex, interactive web applications.
 - 1. **HTML**: HTML is used to structure the content of a web page. It defines the elements (e.g., headings, paragraphs, buttons, App, Card grid, Confetti) and their organization on the page.
 CSS (Cascading Style Sheets): CSS is used to control the presentation and styling of the HTML elements. We used CSS to style elements like buttons, images, and grids.
