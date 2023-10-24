@@ -1,5 +1,9 @@
 # Finding Pairs
 
+
+**Link to play the game:**
+https://vishnu2819.github.io/Finding_Pairs/
+
 **Finding Pairs:** 
 Finding pairs is a type of cognitive exercise designed to stimulate and challenge various cognitive functions, including perception, memory, problem-solving, decision-making, reasoning, attention, and language. It tests and enhances a player's memory and concentration skills. In a typical memory game, players use a set of face-down cards, taking turns to flip them over and find matching pairs. This classic Finding pairs game features cards with Fortnite characters. The inclusion of Fortnite characters in the game is primarily for aesthetic and engagement purposes. 
 
@@ -38,41 +42,48 @@ Limit the Number of Turns: Restrict each player to a specific number of turns. W
 
 **Technologies:**
 To enhance the visual presentation and interaction of web page elements, the code is primarily a React component written in JavaScript, Cascading Style Sheets (CSS), a style sheet language used for describing the look and formatting of a document written in HTML. Technologies and libraries used outline the dependencies and devDependencies used in the "memory-game" project, including React and various tools and libraries for development, linting, and optimization. CSS is used in conjunction with various web development technologies and libraries to streamline development and create more complex, interactive web applications.
-- 1. HTML: HTML is used to structure the content of a web page. It defines the elements (e.g., headings, paragraphs, buttons, App, Card grid, Confetti) and their organization on the page.
+- 1. **HTML**: HTML is used to structure the content of a web page. It defines the elements (e.g., headings, paragraphs, buttons, App, Card grid, Confetti) and their organization on the page.
 CSS (Cascading Style Sheets): CSS is used to control the presentation and styling of the HTML elements. We used CSS to style elements like buttons, images, and grids.
-- 2. React: React is a JavaScript library for building user interfaces, and managing components and states in the application. The entire component is built using React, making use of React features like functional components, hooks (useState, useEffect), and JSX for rendering
-- 3. CSS: The component includes a reference to an external CSS file named "Score.css" to style its elements. The CSS styles are applied to control the visual presentation of the component.
-- 4. JavaScript: JavaScript is a programming language used to add interactivity and dynamic behavior to web pages. JavaScript is used to create interactive elements, handle user input, and respond to events like button clicks or form submissions.
-- 5. Node.js: Node.js is the runtime environment used for executing JavaScript code on the server or in this project's build process.
-- 6. GitHub Pages and GitHub repositories: We've leveraged GitHub repositories for collaborative coding and chosen GitHub Pages as our hosting solution. GitHub Pages excels in serving our static game directly from our repositories, streamlining development and deployment.
+- 2. **React**: React is a JavaScript library for building user interfaces, and managing components and states in the application. The entire component is built using React, making use of React features like functional components, hooks (useState, useEffect), and JSX for rendering
+- 3. **CSS**: The component includes a reference to an external CSS file named "Score.css" to style its elements. The CSS styles are applied to control the visual presentation of the component.
+- 4. **JavaScript**: JavaScript is a programming language used to add interactivity and dynamic behavior to web pages. JavaScript is used to create interactive elements, handle user input, and respond to events like button clicks or form submissions.
+- 5. **Node.js**: Node.js is the runtime environment used for executing JavaScript code on the server or in this project's build process.
+- 6. **GitHub Pages and GitHub repositories**: We've leveraged GitHub repositories for collaborative coding and chosen GitHub Pages as our hosting solution. GitHub Pages excels in serving our static game directly from our repositories, streamlining development and deployment.
  
 **Setup and deployment instructions**
-- Step 1: Prerequisites
-These are installed prior before starting the execution. 
-Node.js and npm (Node Package Manager)
-A code editor (e.g., Visual Studio Code)
-A command-line interface (e.g., Terminal or Command Prompt)
-npm install is used to install the prerequisites.
-- Step 2: Creating a New React Project
-Using the command-line interface, navigated to the directory to create your project using the cd command.
-Used npm create vite@latest to create a new React application.
-- Step 3: Navigate to the Project Directory
-Once the project is created, navigated to the project directory
-- Step 4: Start the Development Server
-npm install is used to install the package.json file 
-npm run dev command is used to run the React application locally during development
-- Step 5: Executing Components and Code
-Started writing React components and application code. Necessary components are created. 
-- Step 6: Added Styling
-For any CSS or styling, Own styles is written in CSS files, used CSS-in-JS libraries like styled-components or CSS preprocessors like SASS. Imported CSS files in the components.
-- Step 7: Testing and Development
-Developed and tested the React application as needed. Used the local development server to view the changes in real-time.
-- Step 8: Built the Production Version
-npm run build command is used when the application is ready for deployment, created a production build. This command is used to create an optimized and minified version of the application in the build directory.
-- Step 9: Deployment
-GitHub serves as the deployment platform where individual developers push their code and diligently commit changes.
+- Step 1: Prerequisites<br>
+These are installed prior before starting the execution. <br>
+Node.js and npm (Node Package Manager)<br>
+A code editor (e.g., Visual Studio Code)<br>
+A command-line interface (e.g., Terminal or Command Prompt)<br>
+npm install is used to install the prerequisites.<br>
+- Step 2: Creating a New React Project<br>
+Using the command-line interface, navigated to the directory to create your project using the cd command.<br>
+Used npm create vite@latest to create a new React application.<br>
+- Step 3: Navigate to the Project Directory<br>
+Once the project is created, navigated to the project directory<br>
+- Step 4: Start the Development Server<br>
+npm install is used to install the package.json file <br>
+npm run dev command is used to run the React application locally during development<br>
+- Step 5: Executing Components and Code<br>
+Started writing React components and application code. Necessary components are created. <br>
+- Step 6: Added Styling<br>
+For any CSS or styling, Own styles is written in CSS files, used CSS-in-JS libraries like styled-components or CSS preprocessors like SASS.<br>Imported CSS files in the components.<br>
+- Step 7: Testing and Development<br>
+Developed and tested the React application as needed. Used the local development server to view the changes in real-time.<br>
+- Step 8: Built the Production Version<br>
+npm run build command is used when the application is ready for deployment, created a production build. This command is used to create an optimized and minified version of the application in the build directory.<br>
+- Step 9: Deployment<br>
+GitHub serves as the deployment platform where individual developers push their code and diligently commit changes.<br>
 
-**Credits for third-party assets and code:**
+**Steps to execute the code**
+- Step1: Install the node.js<br>
+- Step2: Install the package, confetti library<br>
+command used: **npm install**, **npm install react confetti**<br>
+- Step3: Launch the game<br>
+command used: **npm run dev**
+
+**Credits for third-party assets and code:** <br>
 https://github.com/iamshaunjp/React-Firebase/tree/lesson-58<br>
 https://www.w3schools.com/<br>
 https://chat.openai.com/<br>
