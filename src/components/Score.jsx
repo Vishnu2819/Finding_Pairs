@@ -5,7 +5,7 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
   const [text, setText] = useState('');
   const [text2, setText2] = useState('');
   const body = document.body;
-
+ //displays a score and a feedback message to the user
   const display = () => {
     if (turns < 12) {
       setText("Incredible! You've got a great memory");
@@ -18,12 +18,10 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
     }
     setText2(`You took ${turns} tries to finish`);
   }
-
+ //Triggered when all the cards match and executes the function which stores the Appropriate values into the hooks
   useEffect(() => {
     if (displayFlag) {
-        // setTimeout(()=>{
           display();
-        // },5000)
     }else{
       setTimeout(()=>{
         setText('');
@@ -31,7 +29,7 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
       },2000)
     }
   }, [displayFlag, turns, setText, setText2]);
-
+ //used to automatically hide or dismiss the displayed message after it has been visible for 6 seconds
   useEffect(() => {
     if(displayFlag){
       setTimeout(()=>{
@@ -39,12 +37,7 @@ function Score({ turns, displayFlag, updateDisplayVal }) {
       }, 6000)
     }
   });
-
-  // const styles = {
-  //   filter: 'blur(5px)', /* Start with a blur of 5 pixels */
-  //   transition: 'filter 0.3s',
-  // };  
-
+  //Returns the Hooks which are required for pop-up 
   return (
     <div className={`display ${displayFlag ? 'displayunhide': 'displayhidden'}`}>
       <h1>{text}</h1>
